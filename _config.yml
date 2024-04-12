@@ -3,9 +3,9 @@ logo: "/images/avatar_photo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
   <br><br>
-  Second description 
+  Bachelor of Economics with a major in Quantitative Analysis, University of Queensland 2023
   <br><br>
-  <a href="https://www.linkedin.com/in/hsing-yi-sean-chu/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/hsing-yi-sean-chu">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
