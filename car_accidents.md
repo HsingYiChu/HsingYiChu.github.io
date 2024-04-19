@@ -22,8 +22,8 @@ if (isAwesome){
 
 ### 3. Crashes for Each Month of 2018
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/car_accident_month.png?raw=true"/>
 
 ### 4. Crashes by Suburb
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/car_accident_suburb.png?raw=true"/>
