@@ -4,7 +4,7 @@
 
 ### 1. Crash Speed Limit and Crash Severity
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Apply stack bar chart to observe the relationship between speed limit and crash severity. 
 
 ```javascript
 if (isAwesome){
