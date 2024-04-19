@@ -4,7 +4,7 @@
 ### Personal Side Projects 
 
 [Car Accidents QLD 2018](/car_accidents.md)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/car_speed_limit.png?raw=true"/>
 
 ### Projects from Coursework
 
