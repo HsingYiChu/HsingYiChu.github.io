@@ -1,6 +1,6 @@
-## This can be your internal website page / project page
+## Car accidents in QLD 2018 - geographical statistics, relationships with speed limits and crash types
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** The data used in this project was taken from public dataset detailing vehicle incidents in Queensland for 2018. The project mainly focused on investigating the relationship between Speed Limits and the severity of the accidents. For example, what speed limits produce the most or least severe outcomes? Besides, the relationship between crash types and crash severity was also examined. For example, what types of crashes produce the most or least severe outcomes? Last, for reference, the data was also organised geographically that allows me to do a further research of this topic in the future.
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
