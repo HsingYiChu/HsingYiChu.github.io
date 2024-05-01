@@ -4,6 +4,6 @@
 
 ### 1. Data preparation
 
-Remove stop words and some highely mentioned neutural words (e.g. hotel) from the text, and also remove the unwanted characters.
+Explore the word frequency in the dataset after removing stop words and some highely mentioned neutural words (e.g. hotel) from the text.
 
 <img src="images/car_speed_limit.png?raw=true"/>
