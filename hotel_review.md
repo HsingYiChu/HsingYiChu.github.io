@@ -4,3 +4,6 @@
 
 ### 1. Data preparation
 
+Remove stop words and some highely mentioned neutural words (e.g. hotel) from the text, and also remove the unwanted characters.
+
+<img src="images/car_speed_limit.png?raw=true"/>
