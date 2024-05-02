@@ -24,7 +24,7 @@ for n in range(len(df)-1):
     clean_data(review[n]) 
 ```
 
-Split the data into train-test split where 50% of data will be used as test set, set review as X and rating as Y, we will then have 4 groups of data -- X_train, X_test, y_train, y_test. Furthermore, for the reviews (X), BOW and TfIdf were apllied respectively to create two numerical representation.
+Split the data into train-test split where 50% of data will be used as test set, set review as X and rating as Y, we will then have 4 groups of data -- X_train, X_test, y_train, y_test. For the Y groups, additional binary labels were created by assigning ‘1’ – positive for the product ratings 4 and 5; and "–1" for product ratings 1, 2 and 3. Store it in y_train_binary and y_test_binary. Furthermore, for the reviews (X), BOW and TfIdf were apllied respectively to create two numerical representation.
 ```
 from sklearn.feature_extraction.text import CountVectorizer
 vectorizer = CountVectorizer(stop_words = stop_words, min_df=0.01)
@@ -48,5 +48,13 @@ vectorizer2.fit(X_test)
 X_train_tfidf = vectorizer2.transform(X_train)
 X_test_tfidf = vectorizer2.transform(X_test)
 ```
+
+### 2. Model Training
+
+Define 3 Logistic Regression models: model1, model2 and model3 and train the models as follows:
+1. Train the first Logistic Regression model using the Bag of Words representation (train_data_BOW) to predict the hotel rating (Y).
+2. Train the second Logistic Regression model using the TfIdf representation (train_data_tfidf) to predict the hotel rating (Y).
+3. Train the third Logistic Regression model using the TfIdf representation (train_data_tfidf) to predict the binary sentiment label (Y_binary).
+
 
 
