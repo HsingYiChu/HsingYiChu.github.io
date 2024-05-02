@@ -55,7 +55,7 @@ Define 3 Logistic Regression models: model1, model2 and model3 and train the mod
 1. Train the first Logistic Regression model using the Bag of Words representation (train_data_BOW) to predict the hotel rating (Y).
 2. Train the second Logistic Regression model using the TfIdf representation (train_data_tfidf) to predict the hotel rating (Y).
 3. Train the third Logistic Regression model using the TfIdf representation (train_data_tfidf) to predict the binary sentiment label (Y_binary).
-Make and store predictions on appropriate test sets (X_test_BOW for model1 and X_test_tfidf for model2 and model3)
+Make and store predictions on appropriate test sets (X_test_BOW for model1 and X_test_tfidf for model2 and model3).
 ```
 # code for model1 
 from sklearn.linear_model import LogisticRegression
