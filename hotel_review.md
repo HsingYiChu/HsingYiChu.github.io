@@ -1,4 +1,4 @@
-## Hotel review and rating prediction - practice of unstructured text data analysis
+## Hotel review and rating prediction model evaluation - practice of unstructured text data analysis
 
 **Project description:** This project mainly focused on practising text analysing tools, including Bag of Words (BOW) and Term Frequency-Inverse Document Frequency (TF-IDF), on a dataset that contains a review section (text) and ratings (numerical grades). Furthermore, after the analysing tools gave us the numerical representation of the texts, a regression model was applied to predict the rating.
 
@@ -7,7 +7,7 @@
 Explore the word frequency in the dataset after removing stop words and some highly mentioned neutral words (e.g. hotel) from the text.
 <img src="images/hotel_review_word_freq.png?raw=true"/>
 
-Further remove unnecessary symbols
+Further, remove unnecessary symbols
 ```
 import re
 def clean_data(text):
@@ -24,7 +24,7 @@ for n in range(len(df)-1):
     clean_data(review[n]) 
 ```
 
-Split the data into train-test split where 50% of data will be used as test set, set review as X and rating as Y, we will then have 4 groups of data -- X_train, X_test, y_train, y_test. For the Y groups, additional binary labels were created by assigning ‘1’ – positive for the product ratings 4 and 5; and "–1" for product ratings 1, 2 and 3. Store it in y_train_binary and y_test_binary. Furthermore, for the reviews (X), BOW and TfIdf were apllied respectively to create two numerical representation.
+Split the data into train-test split where 50% of data will be used as a test set, set review as X and rating as Y, we will then have 4 groups of data -- X_train, X_test, y_train, y_test. For the Y groups, additional binary labels were created by assigning ‘1’ – positive for the product ratings 4 and 5; and "–1" for product ratings 1, 2 and 3. Store it in y_train_binary and y_test_binary. Furthermore, for the reviews (X), BOW and TfIdf were applied respectively to create two numerical representations.
 ```
 from sklearn.feature_extraction.text import CountVectorizer
 vectorizer = CountVectorizer(stop_words = stop_words, min_df=0.01)
@@ -100,7 +100,10 @@ cost_2 = sum(pow(abs(predicted_2-actual), 2))
 # The misclassification costs for model 1: 3814
 # The misclassification costs for model 2: 3532
 ```
-The result shows that model 1 is not only lower in accuracy but also being punished more by misclassification when apllying my cost function.
+The result shows that model 1 is not only lower in accuracy but also being punished more by misclassification when applying my cost function.
+
+### 4. Model Analysis
+
 
 
 
