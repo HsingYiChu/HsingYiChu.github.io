@@ -8,7 +8,6 @@ Explore the word frequency in the dataset after removing stop words and some hig
 <img src="images/hotel_review_word_freq.png?raw=true"/>
 
 Further remove unnecessary symbols
-
 ```
 import re
 def clean_data(text):
@@ -24,3 +23,30 @@ def clean_data(text):
 for n in range(len(df)-1):
     clean_data(review[n]) 
 ```
+
+Split the data into train-test split where 50% of data will be used as test set, set review as X and rating as Y, we will then have 4 groups of data -- X_train, X_test, y_train, y_test. Furthermore, for the reviews (X), BOW and TfIdf were apllied respectively to create two numerical representation.
+```
+from sklearn.feature_extraction.text import CountVectorizer
+vectorizer = CountVectorizer(stop_words = stop_words, min_df=0.01)
+
+# fit the vectorizer object to train data
+vectorizer.fit(X_train)
+vectorizer.fit(X_test)
+
+# get the BOW for train data
+X_train_BOW = vectorizer.transform(X_train)
+X_test_BOW = vectorizer.transform(X_test)
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+vectorizer2 = TfidfVectorizer(stop_words = stop_words, min_df=0.01)
+
+# fit the vectorizer object to train data
+vectorizer2.fit(X_train)
+vectorizer2.fit(X_test)
+
+# get the TfIdf for train data
+X_train_tfidf = vectorizer2.transform(X_train)
+X_test_tfidf = vectorizer2.transform(X_test)
+```
+
+
