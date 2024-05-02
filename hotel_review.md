@@ -86,8 +86,21 @@ Based on the results, it is shown that the accuracy score for model 2 is slightl
 
 For Model 2, compute additional evaluation measures: confusion matrix, precision and recall.
 <img src="images/hotel_review_c_matrix.png?raw=true"/>
+<img src="images/hotel_review_p_r.png?raw=true"/>
 
+For this matrix, I was also wondering how to improve the model evaluation by including the misclassification costs in the confusion matrix as the costs should be valued differently based on how far the predictions are compared to the actual ratings. For instance, the cost of predicting 5 while the actual rating is 1 should be higher than predicting 5 while the actual rating is 4. To do so:
+```
+#set the cost of misclassification as the square of the difference between the predicted rating and the actual rating
+predicted_1 = y_test_model1_predictions
+predicted_2 = y_test_model2_predictions
 
-For this matrix, I was also wondering how to improve the model evaluation by including the misclassification costs in the confusion matrix as the costs should be valued differently based on how far the predictions are compared to the actual ratings. For instance, the cost of predicting 5 while the actual rating is 1 should be higher than predicting 5 while the actual rating is 4.
+cost_1 = sum(pow(abs(predicted_1-actual), 2)) 
+cost_2 = sum(pow(abs(predicted_2-actual), 2))
+
+# The misclassification costs for model 1: 3814
+# The misclassification costs for model 2: 3532
+```
+The result shows that model 1 is not only lower in accuracy but also being punished more by misclassification when apllying my cost function.
+
 
 
