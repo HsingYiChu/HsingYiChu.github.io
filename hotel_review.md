@@ -82,9 +82,12 @@ The accuracy score for model 1: 0.5842279914112825;
 The accuracy score for model 2: 0.6051141909037673; 
 The accuracy score for model 3: 0.8979113800507516.
 
-Based on the results, it is shown that the accuracy score for model 2 is slightly higher than which of model 1, indicating that the Term Frequency-Inverse Document Frequency (TfIdf) method could be better at predicting the hotel ratings (Y). Also, it is shown that the accuracy score of model 3 is significantly higher than that of model 2 even though they are trained and tested by the same data. The only difference is that the data for model 3 was transferred to binary format, which makes the prediction easier as it loosed the threshold.
+Based on the results, it is shown that the accuracy score for model 2 is slightly higher than that of model 1, indicating that the Term Frequency-Inverse Document Frequency (TfIdf) method could be better at predicting the hotel ratings (Y). Also, it is shown that the accuracy score of model 3 is significantly higher than that of model 2 even though they are trained and tested by the same data. The only difference is that the data for model 3 was transferred to binary format, which makes the prediction easier as it loses the threshold.
 
-For Model 2, compute additional evaluaton measures, namely confusion matrix, precision and recall.
-<img src="images/hotel_review_word_freq.png?raw=true"/>
+For Model 2, compute additional evaluation measures: confusion matrix, precision and recall.
+<img src="images/hotel_review_c_matrix.png?raw=true"/>
+
+
+For this matrix, I was also wondering how to improve the model evaluation by including the misclassification costs in the confusion matrix as the costs should be valued differently based on how far the predictions are compared to the actual ratings. For instance, the cost of predicting 5 while the actual rating is 1 should be higher than predicting 5 while the actual rating is 4.
 
 
