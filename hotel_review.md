@@ -58,17 +58,14 @@ Define 3 Logistic Regression models: model1, model2 and model3 and train the mod
 Make and store predictions on appropriate test sets (X_test_BOW for model1 and X_test_tfidf for model2 and model3)
 ```
 # code for model1 
-
 from sklearn.linear_model import LogisticRegression
 # define lgositic regression model object
 model1 = LogisticRegression(random_state=random_state)
 
 # fit the model to training data
 model1.fit(X_train_BOW, y_train)
-
 # create BOW for test data
 X_test_BOW = vectorizer.transform(X_test)
-
 # predict using model 1 object
 y_test_model1_predictions = model1.predict(X_test_BOW)
 ```
