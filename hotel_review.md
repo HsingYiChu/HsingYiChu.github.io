@@ -104,6 +104,9 @@ The result shows that model 1 is not only lower in accuracy but also being punis
 
 ### 4. Model Analysis
 
+Visualize important words with their model coefficients.
+
+
 
 
 
