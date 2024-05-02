@@ -9,7 +9,7 @@ Explore the word frequency in the dataset after removing stop words and some hig
 
 Further remove unnecessary symbols
 
-'''
+```
 import re
 def clean_data(text):
     # Format words and remove unwanted characters
@@ -23,4 +23,4 @@ def clean_data(text):
     return text
 for n in range(len(df)-1):
     clean_data(review[n]) 
-'''
+```
