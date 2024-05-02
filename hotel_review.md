@@ -59,6 +59,7 @@ Make and store predictions on appropriate test sets (X_test_BOW for model1 and X
 ```
 # code for model1 
 
+from sklearn.linear_model import LogisticRegression
 # define lgositic regression model object
 model1 = LogisticRegression(random_state=random_state)
 
@@ -73,5 +74,8 @@ y_test_model1_predictions = model1.predict(X_test_BOW)
 ```
 
 ### 3. Model Evaluation
+
+Compute and compare the test accuracy of Model 1 (Logistic Regression with BoW representation) and Model 2 (Logistic Regression with TfIdf representation). Based on your results, determine which embedding method yields higher performance in predicting the hotel ratings (Y).
+
 
 
