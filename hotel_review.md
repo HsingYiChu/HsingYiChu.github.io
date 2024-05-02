@@ -75,10 +75,7 @@ y_test_model1_predictions = model1.predict(X_test_BOW)
 
 Compute and compare the test accuracy of Model 1 (Logistic Regression with BoW representation) and Model 2 (Logistic Regression with TfIdf representation). Based on your results, determine which embedding method yields higher performance in predicting the hotel ratings (Y).
 
-First, the function "accuracy_score()" was applied:\n
-The accuracy score for model 1: 0.5842279914112825\n
-The accuracy score for model 2: 0.6051141909037673\n
-The accuracy score for model 3: 0.897911380050751\n
+First, the function "accuracy_score()" was applied, and the accuracy score for model 1 is around 0.584 while which of model 2 is around 0.605 and which of model 3 is around 0.898.
 
 Based on the results, it is shown that the accuracy score for model 2 is slightly higher than that of model 1, indicating that the Term Frequency-Inverse Document Frequency (TfIdf) method could be better at predicting the hotel ratings (Y). Also, it is shown that the accuracy score of model 3 is significantly higher than that of model 2 even though they are trained and tested by the same data. The only difference is that the data for model 3 was transferred to binary format, which makes the prediction easier as it loses the threshold.
 
