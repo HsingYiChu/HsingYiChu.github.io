@@ -11,9 +11,6 @@
 - [Hotel review and rating prediction model evaluation - practice of unstructured text data analysis](/hotel_review.md)
 <img src="images/hotel_review_c_matrix.png?raw=true"/>
 - [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
