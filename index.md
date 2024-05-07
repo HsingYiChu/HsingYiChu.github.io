@@ -10,7 +10,7 @@
 
 - [Hotel review and rating prediction model evaluation - practice of unstructured text data analysis](/hotel_review.md)
 <img src="images/hotel_review_c_matrix.png?raw=true"/>
-- [Project 2 Title](http://example.com/)
+- [Project 2 Title](/bikeway_usage.md)
 
 ---
 
