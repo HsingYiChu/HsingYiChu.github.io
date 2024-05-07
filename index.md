@@ -10,8 +10,8 @@
 
 - [Hotel review and rating prediction model evaluation - practice of unstructured text data analysis](/hotel_review.md)
 <img src="images/hotel_review_c_matrix.png?raw=true"/>
-- [Project 2 Title](/bikeway_usage.md)
-
+- [Brisbane bikeway usage forecasting model - the practice of removing seasonality from time series data](/bikeway_usage.md)
+<img src="images/hotel_review_c_matrix.png?raw=true"/>
 ---
 
 
