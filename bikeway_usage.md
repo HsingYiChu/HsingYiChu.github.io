@@ -8,3 +8,7 @@ Compile all the bikeway usage data for 2016-2020 into one series and merge it wi
 
 <img src="images/dfbikeway.png?raw=true"/>
 
+### 2. Exploratory Data Analysis (EDA)
+
+Visualise the data and the relationship observed.
+
