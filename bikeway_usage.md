@@ -30,3 +30,7 @@ Plots 3 and 4 show the gradient of correlation in the first segment is steeper t
 
 However, in this case, if we would like to investigate more details about the relationship between temperature and bikeway usage, several possible uncertainties should be taken care of. For example. The endogeneity problem could be caused by omitted variable issues. There are many more exogenous variables we should consider including as controls such as the school holidays distribution (winter/summer vacation).
 
+### 3. STR decomposition process
+
+
+
