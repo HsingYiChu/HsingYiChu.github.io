@@ -12,3 +12,14 @@ Compile all the bikeway usage data for 2016-2020 into one series and merge it wi
 
 Visualise the data and the relationship observed.
 
+<img src="images/bikeway_eda1.png?raw=true"/>
+
+<img src="images/bikeway_eda2.png?raw=true"/>
+
+<img src="images/bikeway_eda3.png?raw=true"/>
+
+<img src="images/bikeway_eda4.png?raw=true"/>
+
+<img src="images/bikeway_eda5.png?raw=true"/>
+
+<img src="images/bikeway_eda6.png?raw=true"/>
