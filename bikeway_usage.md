@@ -20,6 +20,8 @@ Visualise the data and the relationship observed.
 
 <img src="images/bikeway_eda2s.png?raw=true"/>
 
+For plot 1 and plot 2, it is observed that the bikeway usage in both 2019 and 2020 fluctuated a lot. Thus, we applied the seaborn package to generate smooth trend lines with confidence intervals to observe trends and patterns more clearly. While a relatively clear trend is shown in 2020, both plot 1s and plot 2s pointed out that the trend of usage started low during January and increased to reach a maximum during April/May (February/March for 2019 data), then started to decrease until June/July. After the dent, the usage again climbed until October/November then dropped again.
+
 <img src="images/bikeway_eda5.png?raw=true"/>
 
 <img src="images/bikeway_eda6.png?raw=true"/>
