@@ -14,7 +14,11 @@ Visualise the data and the relationship observed.
 
 <img src="images/bikeway_eda1.png?raw=true"/>
 
+<img src="images/bikeway_eda1s.png?raw=true"/>
+
 <img src="images/bikeway_eda2.png?raw=true"/>
+
+<img src="images/bikeway_eda2s.png?raw=true"/>
 
 <img src="images/bikeway_eda3.png?raw=true"/>
 
