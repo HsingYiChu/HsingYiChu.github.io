@@ -1,4 +1,4 @@
-## The relationship between temperature and bikeway usage - the practice of removing seasonality from time series data
+## Brisbane bikeway usage forecast model- the practice of analysing time series data with seasonality
 
 **Project description:** This project aims to analyse the usage pattern of the Brisbane bikeway, and investigate if temperature is one of the factors that affect the usage. Furthermore, based on the findings, we examined bikeway data collected by the Brisbane City Council and used it to make predictions of future cycle usage, using time series forecasting techniques. The data is from: https://www.data.brisbane.qld.gov.au/data/dataset/bikeway-counts. It comprises five .csv files, for the years 2016-2020.
 
