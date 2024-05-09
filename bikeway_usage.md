@@ -20,10 +20,6 @@ Visualise the data and the relationship observed.
 
 <img src="images/bikeway_eda2s.png?raw=true"/>
 
-<img src="images/bikeway_eda3.png?raw=true"/>
-
-<img src="images/bikeway_eda4.png?raw=true"/>
-
 <img src="images/bikeway_eda5.png?raw=true"/>
 
 <img src="images/bikeway_eda6.png?raw=true"/>
