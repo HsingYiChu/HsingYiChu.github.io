@@ -26,7 +26,7 @@ For plot 1 and plot 2, it is observed that the bikeway usage in both 2019 and 20
 
 <img src="images/bikeway_eda6.png?raw=true"/>
 
-Plots 5 and 6 show the gradient of correlation in the first segment is steeper than the second one (both are positive), which could be interpreted as the usage of Milton bikeway is affected more by low temperature than high temperature.
+Plots 3 and 4 show the gradient of correlation in the first segment is steeper than the second one (both are positive), which could be interpreted as the usage of Milton bikeway is affected more by low temperature than high temperature.
 
 However, in this case, if we would like to investigate more details about the relationship between temperature and bikeway usage, several possible uncertainties should be taken care of. For example. The endogeneity problem could be caused by omitted variable issues. There are many more exogenous variables we should consider including as controls such as the school holidays distribution (winter/summer vacation).
 
