@@ -32,6 +32,13 @@ However, in this case, if we would like to investigate more details about the re
 
 ### 3. STR decomposition process
 
+<img src="images/bikeway_str.png?raw=true"/>
+
+### 4. ARIMA model 
+
+<img src="images/bikeway_arima1.png?raw=true"/>
+
+<img src="images/bikeway_arima2.png?raw=true"/>
 
 
 
