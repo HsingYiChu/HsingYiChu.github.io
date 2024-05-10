@@ -34,7 +34,7 @@ However, in this case, if we would like to investigate more details about the re
 
 <img src="images/bikeway_str.png?raw=true"/>
 
-### 4. ARIMA model 
+### 4. SARIMA model 
 
 <img src="images/bikeway_arima.png?raw=true"/>
 
